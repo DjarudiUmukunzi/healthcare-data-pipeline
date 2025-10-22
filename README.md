@@ -9,7 +9,7 @@ The pipeline ingests raw clinical trial data, processes it through a **Medallion
 
 The infrastructure is deployed using **Terraform** and follows a **modern data platform design**.
 
-![Project Architecture](./images/project_architecture.png)(./images/images\data_pipeline.png)
+![Project Architecture](./images/project_architecture.png)(./images/images\project_architecture.png)
 
 
 ### 🔹 Core Components
@@ -76,11 +76,11 @@ The entire ETL process is **automated and orchestrated** by a single **Azure Dat
 
 ### ✅ ADF Pipeline Success
 
-![ADF Pipeline Run](./images/adf_pipeline_success.png)
+![ADF Pipeline Run](./images/data_pipeline.png)
 
 ### ✅ Databricks Job Run
 
-![Databricks Job Run](./images/databricks_job_run.png)
+![Databricks Job Run](./images/job_runs.png)
 
 ---
 
@@ -90,13 +90,13 @@ The final Gold tables are used to generate analytics directly within the Databri
 These visualizations confirm that the data is clean and provide immediate insights.
 
 ### 🔝 Top 20 Most Studied Medical Conditions
-![Top 20 Conditions](./images/studied_medical_conditions.png)
+![Top 20 Conditions](./images/most_studied_conditions.jpg)
 
 ### 📈 Top 10 Clinical Trial Statuses
-![Top 10 Statuses](./images/trial_statuses.png)
+![Top 10 Statuses](./images/clinical_status.jpg)
 
 ### 🌍 Top 10 Countries by Number of Trials (Excluding USA)
-![Top 10 Countries](./images/top_countries.png)
+![Top 10 Countries](./images/countries_by_trial.jpg)
 
 ---
 
